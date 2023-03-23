@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Divide by Three JavaScript</title>
+</head>
+
+<body>
+    <center>
+        <h1>CHECK CONSOLE FOR OUTPUT</h1>
+    </center>
+
+    <!--JavaScript for Displaying Numbers Divisible by 3-->
+    <script>
+        //Array Declaration
+        const numbers = [3, 5, 7, 21, 37, 60, 24, 55, 76, 27, 90];
+
+        //For Loop for Reading Elements of Array
+        for (let i = 0; i < numbers.length; i++) 
+        {
+            //Check if Remainder is 0
+            if (numbers[i] % 3 === 0) 
+            {
+                console.log(numbers[i]);
+            }
+        }
+    </script>
+</body>
+
+</html>
